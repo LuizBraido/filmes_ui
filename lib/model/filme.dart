@@ -1,8 +1,9 @@
-class Filme {
+class FilmeInfoGeral {
   String nome;
   String ano;
   String image;
+  String id;
 
-  Filme(this.nome, this.ano, this.image);
+  FilmeInfoGeral(this.nome, this.ano, this.image, this.id);
 
 }
